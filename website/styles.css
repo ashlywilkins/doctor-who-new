@@ -5,7 +5,7 @@ body {
 	background-color: #3a0851;
 }
 p {
-	line-height: 1.5em;
+	line-height: 2.25em;
 }
 td {
 	text-align: left;
@@ -20,12 +20,7 @@ td {
 .secondary-nav li {
 	list-style-type: none;
 }
-p {
-	width: 25%;
-}
-td {
-	width: 50%;
-}
+
 table {
 	background-color: #FFF;
 }
