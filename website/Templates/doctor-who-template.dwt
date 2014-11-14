@@ -14,12 +14,19 @@
 <!-- TemplateParam name="The Companions" type="boolean" value="false" -->
 <link href="../styles.css" rel="stylesheet" type="text/css">
 <!-- TemplateParam name="Doctor Who" type="boolean" value="false" -->
+<!-- TemplateParam name="Home Page Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="The Doctors Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="The Vinnians Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="The Companions Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="Show History Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="The Villians Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="Home Pager Banner" type="boolean" value="true" -->
 </head>
 
 <body>
 <table class="general-width">
   <tr>
-    <td><img src="../Images/Banners/Doctor-Who-Banner.jpg" width="1000" height="200" alt="The Doctors Website Banner"></td>
+    <td><!-- TemplateBeginIf cond="_document['Home Page Banner']" --><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['The Companions Banner']" -->The Companions Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Show History Banner']" -->Show History Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['The Villians Banner']" --><img src="../Images/Banners/Villians-Banner.jpg" width="1000" height="250"><!-- TemplateEndIf --></td>
   </tr>
   <tr>
     <td><a href="../index.html">Home</a> |<a href="../The Doctors/"> The Doctors</a> |<a href="../The Companions/"> The Companions</a> | <a href="../The Villians/">The Villians</a> |<a href="../Show History/"> Show History</a></td>
