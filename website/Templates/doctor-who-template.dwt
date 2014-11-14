@@ -13,6 +13,7 @@
 <!-- TemplateParam name="Show History" type="boolean" value="false" -->
 <!-- TemplateParam name="The Companions" type="boolean" value="false" -->
 <link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="Doctor Who" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -43,7 +44,6 @@
         <li><a href="../The Doctors/The Characters/1.13. The Twelfth Doctor.html">The Twelfth Doctor</a></li>
       </ul>
     <!-- TemplateEndIf -->
-      <p>&nbsp;</p>
       <ul>
         <!-- TemplateBeginIf cond="_document['The Companions']" -->
           <li><a href="../The Companions/The Characters/2.1. Clara Oswald.html">Clara Oswald</a></li>
@@ -58,7 +58,6 @@
           <li><a href="../The Companions/The Characters/2.10. Rose Tyler.html">Rose Tyler</a></li>
         <!-- TemplateEndIf -->
       </ul>
-<p>&nbsp;</p>
 <!-- TemplateBeginIf cond="_document['The Villians']" -->
 <ul>
   <li><a href="../The Villians/Characters/3.1. The Master.html">The Master</a></li>
@@ -72,7 +71,6 @@
   <li><a href="../The Villians/Characters/3.9. Slitheen.html">Slitheen</a></li>
 </ul>
 <!-- TemplateEndIf -->
-<p>&nbsp;</p>
 <!-- TemplateBeginIf cond="_document['Show History']" -->
 <ul>
   <li><a href="../Show History/4.3. 1996 Film.html">1996 Film</a></li>
@@ -80,7 +78,7 @@
   <li><a href="../Show History/4.1. Origins.html">Origins</a></li>
   <li><a href="../Show History/4.2. The Original Series.html">The Original Series</a></li>
 </ul>
-<!-- TemplateEndIf --></td>
+<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Doctor Who']" --><img src="../Images/Doctor Who.jpg" width="300" height="425" alt="Doctor Who"><!-- TemplateEndIf --></td>
     <td><!-- TemplateBeginEditable name="Page Content" -->Page Content<!-- TemplateEndEditable --></td>
   </tr>
 </table>
